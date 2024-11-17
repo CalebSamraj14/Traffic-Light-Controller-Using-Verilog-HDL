@@ -34,7 +34,7 @@ Save and Document Results:
 Capture screenshots of the waveform and save the simulation logs to include in your report.
 
 ## Verilog Code for Traffic Light Controller
-
+```
 
 module normal_traffic(clk,rst,light);
 input clk,rst;
@@ -72,10 +72,10 @@ always@(posedge clk) begin
  end
 endmodule
 
-
+```
 
 ## Testbench for Traffic Light Controller
-
+```
 module normal_traffic_tb;
     reg clk, rst;
     wire [2:0] light;
@@ -99,7 +99,7 @@ module normal_traffic_tb;
         #200 $finish;
     end
 endmodule
-
+```
 ## Output
 ![Screenshot (23)](https://github.com/user-attachments/assets/ef34bfce-fab3-4dc4-b05b-b5563a1f6373)
 
